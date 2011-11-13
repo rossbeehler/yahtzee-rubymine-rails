@@ -5,3 +5,5 @@
 require File.expand_path('../config/application', __FILE__)
 
 Yahtzee::Application.load_tasks
+
+task :allTests => [:cucumber, :spec]

@@ -32,7 +32,10 @@ gem 'jquery-rails'
 
 gem 'cucumber'
 gem 'cucumber-rails'
+gem 'rspec-rails'
 
 group :test do
   gem 'database_cleaner'
 end
+
+gem 'spork'
